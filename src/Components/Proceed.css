@@ -1,0 +1,45 @@
+.proceed_wrap{
+    max-width: 600px;
+    margin: 0px 20px;
+    margin-top: 30px;
+    
+}
+.proceed_form{
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+.proceed__column{
+    margin: 20px;
+    margin-right: 20px;
+
+}
+.proceed__column label{
+    display: block;
+
+}
+.proceed__column input{
+    width: 100%;
+}
+.proceed__column select{
+    width: 100%;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    padding: 10px 0;
+    background-color: rgb(234,237,237);
+    
+}
+.MuiInput-root{
+    width: 100%;
+}
+.proceed__column button{
+    border-radius: 5px;
+    width: 100%;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    padding:10px 0;
+    border-color: #a88734 #9c7e31 #846a29;
+    background: #f0c14b;
+}
